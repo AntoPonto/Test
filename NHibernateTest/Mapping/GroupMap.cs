@@ -27,7 +27,7 @@ namespace NHibernateTest.Mapping
         /// </summary>
         public GroupMap()
         {
-            Table("T_GROUP");
+            Table("T_GROUP"); // tabella
             LazyLoad();
             Id(x => x.CdGroup).GeneratedBy.Identity().Column("CD_GROUP");
             Map(x => x.CaGroup).Column("CA_GROUP").Not.Nullable();
