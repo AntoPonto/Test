@@ -12,7 +12,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Reflection;
-
+45484545
 namespace NHibernateTest
 {
     public partial class NHibernateConfigurator
